@@ -73,33 +73,9 @@
 
           <div class="collapse navbar-collapse" id="osteo-navbar">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#osteopathie">L'Ostéopathie</a></li>
-              
-              <li class="dropdown">
-                <a data-toggle="dropdown" class="dropdown-toggle">Une séance
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li role="presentation"><a href="#votre-osteo">Votre ostéopathe</a></li>
-                  <li role="presentation"><a href="#cabinet">Le cabinet</a></li>
-                  <li role="presentation"><a href="#seance">La séance</a></li>
-                </ul>
-              </li>
+              <li><a href="#quand">Quand consulter</a></li>
+              <li><a href="#seance">Séance</a></li>
 
-              <li class="dropdown">
-                <a data-toggle="dropdown" class="dropdown-toggle">Quand Consulter ?
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li role="presentation" class="dropdown-header">Adultes</li>
-                  <li role="presentation"><a href="#adulte">Femmes enceintes</a></li>
-                  <li role="presentation"><a href="#adulte">Problèmes articulaires</a></li>
-                  <li role="presentation" class="dropdown-header">Nourrisons</li>
-                  <li role="presentation"><a href="#nourrisson">Nutrission</a></li>
-                  <li role="presentation"><a href="#nourrisson">Sommeil</a></li>
-                  <li role="presentation"><a href="#nourrisson">Pleurs</a></li>
-                </ul>
-              </li>
 
               <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle">Renseignements
@@ -123,10 +99,10 @@
     <div class="sub_head drop-shadow-header">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2 col-md-2 col-lg-2 col-xs-2 vcenter">
-            <img src="images/bebe.jpg" id="thumb-osteo" class="img-thumbnail" alt="Ostéopathie">
-          </div>
-          <div class="col-lg-10 col-md-10 col-lg-10 col-xs-10 vcenter text-right">
+          <!--<div class="col-lg-2 col-md-2 col-lg-2 col-xs-2 vcenter">
+            <img src="images/bibi.jpg" id="thumb-osteo" class="img-thumbnail" alt="Ostéopathie">
+          </div>-->
+          <div class="col-md-12 text-right">
             <h1>Cabinet d'Ostéopathie de La Brède</h1>
             <p><strong>Marie Fayolle</strong>, diplômée du Collège Ostéopathique Sutherland de Bordeaux.</p>
             <p><i class="fa fa-phone"></i> 06.22.21.12.42</p>
