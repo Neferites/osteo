@@ -14,9 +14,6 @@
     if(strlen($_POST['message'])<10) {
       $error['message'] = '<div style="padding:5px; margin-top:10px;" class="alert alert-danger"><i class="fa fa-warning"></i> Le champ message doit <strong>comporter</strong> au moins <strong>10 caractères</strong>.</div>';
     }
-    if($_POST['captcha']!='42') {
-      $error['captcha'] = '<div style="padding:5px; margin-top:10px;" class="alert alert-danger"><i class="fa fa-warning"></i> Veuillez répondre à la question de <strong>vérification</strong>.</div>';
-    }
 
     if(count($error) == 0) {
         
@@ -47,7 +44,7 @@
        type="text/javascript"></script>
     <![endif]-->
 
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.css">
@@ -82,13 +79,14 @@
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
-                  <li role="presentation"><a href="#tarifs">Les tarifs</a></li>
                   <li role="presentation"><a href="#horaires">Les horaires</a></li>
-                  <li role="presentation"><a href="#plan">Plan d'accès</a></li>
+                  <li role="presentation"><a href="#tarifs">Les tarifs</a></li>                  
+                  <li role="presentation"><a href="#plan-contact">Plan d'accès</a></li>
+                  <li role="presentation"><a href="#plan-contact">Contact</a></li>                  
                 </ul>
               </li>
 
-              <li><a href="#contact">Contact</a></li>
+              <!--<li><a href="#contact">Contact</a></li>-->
          		</ul>
           </div>
 
@@ -104,7 +102,7 @@
           </div>-->
           <div class="col-md-12 text-right">
             <h1>Cabinet d'Ostéopathie de La Brède</h1>
-            <p><strong>Marie Fayolle</strong>, diplômée du Collège Ostéopathique Sutherland de Bordeaux.</p>
+            <p><strong>Marie Fayolle</strong>, diplômée du C.O.S. de Bordeaux.</p>
             <p><i class="fa fa-phone"></i> 06.22.21.12.42</p>
             <p><i class="fa fa-home"></i> 18 Place Montesquieu, 33650 Brede (la)</p>
           </div>
