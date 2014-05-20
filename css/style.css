@@ -1,3 +1,18 @@
+.alert {
+  background-color: #fff2c9;
+  border-color: #c9a767;
+  color: #927d6a;
+  margin-bottom: 0px;
+}
+.alert-info {
+  padding: 8px 15px;
+}
+.osteo-nav h4 {
+  margin-top: 0px;
+}
+.osteo-nav.affix {
+  top: 65px;
+}
 #monCarousel .item {
   max-height: 400px;
 }
@@ -13,7 +28,7 @@
   background-position: 0 0, 0 35px;
   background-repeat: repeat-x, no-repeat;
   background-color: #fff2c9;
-  padding: 70px 0;
+  padding: 50px 0 35px 0;
 }
 .page-header-footer {
   border-bottom: 1px dotted #999999;
@@ -89,33 +104,56 @@ a:hover {
 }
 .form-control {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border linear .2s, box-shadow linear .2s;
-  -moz-transition: border linear .2s, box-shadow linear .2s;
   -o-transition: border linear .2s, box-shadow linear .2s;
   transition: border linear .2s, box-shadow linear .2s;
 }
 .form-control:focus {
   border-color: #fff2c9;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,242,201,.9);
-  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,242,201,.9);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,242,201,.9);
 }
 .osteo-lighter-last {
   padding: 25px 0;
+  border-bottom: none;
+}
+.osteo-bold {
+  font-weight: 700;
+  color: #c9a767;
+}
+.contact {
+  border-left: 1px solid #eeeeee;
+}
+.pres .img-thumbnail {
+  background-color: #c9a767;
+}
+.pres p {
+  color: #555555;
 }
 .sub_head {
   background-color: #f4d7bd;
   background-image: url("../images/Spine2.jpg"), url("../images/bande.jpg");
   background-position: -200px 0, 1090px 0;
   background-repeat: no-repeat, repeat-x;
-  padding: 90px 0px 50px 0px;
+  padding: 70px 0px 30px 0px;
   margin-bottom: 20px;
 }
 .drop-shadow-header {
   -webkit-box-shadow: 0px 1px 6px 0 #555555;
   box-shadow: 0px 1px 6px 0 #999999;
+}
+@media screen and (max-width: 1366px) {
+  /* Specific to this particular image */
+  .sub_head {
+    background-position: -360px 0, 950px 0;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* Specific to this particular image */
+  .sub_head {
+    background-position: -400px 0, 910px 0;
+  }
 }
 .sub_head h1 {
   font-size: 44px;
@@ -134,4 +172,7 @@ a:hover {
 .lettrine {
   margin-right: 15px;
   margin-bottom: 0px;
+}
+.plan {
+  margin-left: 15px;
 }
